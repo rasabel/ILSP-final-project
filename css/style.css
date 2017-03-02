@@ -1,0 +1,13 @@
+.first-padding{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.second-padding{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+//log in and sign up form
+  .form_model{
+    padding: 30px;
+  }
