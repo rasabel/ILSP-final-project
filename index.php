@@ -69,9 +69,43 @@
       padding: 20px;
     }
     .catagories{
-      margin-top: 20px;
+    //margin-top: 20px;
+      text-align: center;
+      background-color: #3e3e3e;
+      text-align: center;
+      height: 40px;
     }
-  </style>
+    .catagories_list{
+      width: 1024px;
+      align-items: center;
+    }
+    .catagories_list ul li{
+      display: inline;
+      text-decoration: none;
+      padding: 5px;
+
+    }
+    .footer{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 120px;
+      margin-right: 120px;
+      overflow: auto;
+    }
+    .cards{
+
+      margin: auto;
+      height: 150px;
+      padding: 10px;
+    }
+    .copyWright{
+      background-color: black;
+      margin-bottom: 0px;
+      color: #ffffff;
+      padding: 10px;
+
+    }
+      </style>
   <head>
 
     <body>
@@ -94,11 +128,9 @@
           <!--the serch_form-->
         <div class="w3-row">
           <div class="search_title">
-              <p class="w3-xlarge">Search:</p>
+              <p class="w3-xlarge">Search:<!--<img src="img/icon/logoname.png"/>--></p>
           </div>
-
             <div class="search">
-
               <ul class="w3-navbar">
                  <li><a href="#" onclick="openCity('sea_place')">place</a></li>
                  <li><a href="#" onclick="openCity('sea_name')">name</a></li>
@@ -111,7 +143,6 @@
                   <label>near: </label>
                   <input type="text" placeholder="location">
                 </form>
-
               </div>
 
               <div id="sea_name" class="sea_input">
@@ -130,17 +161,35 @@
                   <label>near: </label>
                   <input type="text" placeholder="location">
                 </form>
-
             </div>
             <div class="search_button">
               <button class="w3-btn w3-round-large w3-right">Rounder</button>
             </div>
+          </div>
         </div>
-
-          <!--the catagories-->
-          
+      <!--the catagories-->
+      <div class="catagories">
+        <div class="catagories_list">
+            <ul >
+              <li>Restorant</li>
+              <li>Gas station</li>
+              <li>hospital</li>
+              <li>Bar</li>
+            </ul>
+        </div>
       </div>
+    </div>
+    <!--footer-->
+<br>
+    <div class="footer  w3-light-blue">
+      <div class="w3-col m4 w3-card-3 cards">aa</div>
+      <div class="w3-col m4 w3-card-4 cards">bb</div>
+      <div class="w3-col m4 w3-card-3 cards">cc</div>
 
+    </div>
+    <div class="w3-row ">
+      <p class="copyWright">&copy; WeGoTogeter Team Foundation. <i>year</i></div>
+    </div>
       <script>
       openCity("sea_name");
       function openCity(search_input) {
