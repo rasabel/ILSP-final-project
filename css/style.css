@@ -11,6 +11,11 @@
   height: 100%;
 
 }
+.page_header{
+  background-color:#000000;
+  opacity:0.60 ;
+
+}
 .logo{
   background-color: red;
   height: 80px;
@@ -21,8 +26,15 @@
 .auth{
   margin-right: 120px;
   padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
+
+}
+.auth:hover{
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 .search_title{
@@ -86,5 +98,11 @@
   margin-bottom: 0px;
   color: #ffffff;
   padding: 10px;
+
+}
+
+/*sign up page*/
+.signupPage{
+min-height:100%;
 
 }

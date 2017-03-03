@@ -23,7 +23,8 @@
               </ul>
               <div id="sea_place" class="sea_input">
                 <form class="serch_form">
-                  <label>search: </label>
+                  <label>Search : </label>
+                  <!--the serch label should change to "what are you lookin for?"-->
                   <input type="text" placeholder="enter the place name">
                   <label>near: </label>
                   <input type="text" placeholder="location">
@@ -32,7 +33,8 @@
 
               <div id="sea_name" class="sea_input">
                 <form class="serch_form">
-                  <label>search: </label>
+                  <label>Search : </label>
+                  <!--Which do you wont?-->
                   <input type="text" placeholder="enter the name">
                   <label>near: </label>
                   <input type="text" placeholder="location">
@@ -41,14 +43,15 @@
 
               <div id="sea_service" class="sea_input">
                 <form class="serch_form">
-                  <label>search: </label>
+                  <label>Search : </label>
+                  <!--Search :-->
                   <input type="text" placeholder="enter the service name">
                   <label>near: </label>
                   <input type="text" placeholder="location">
                 </form>
             </div>
             <div class="search_button">
-              <button class="w3-btn w3-round-large w3-right">Rounder</button>
+              <button class="w3-btn w3-round-large w3-right">search</button>
             </div>
           </div>
         </div>
